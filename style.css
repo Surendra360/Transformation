@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    /* margin: 300px; */
+    transform: translate(200px, 200px) scale(2) rotate(10deg);
+    transform-origin: bottom left;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), -10px -10px 10px rgba(222, 184, 135, 0.5) ;
+    
+}
